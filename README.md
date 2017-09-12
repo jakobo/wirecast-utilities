@@ -24,6 +24,9 @@ do shell script "osascript <path/to>/utilities.scpt <command> <args...>"
 ## stinger
 `utilities.scpt stinger 'My Transition' 'slow', 2, 'My New Camera', 0.3, 'My Audio'`
 > Used to create a "stinger" transition. It will begin by playing the transition_name, and after the first delay, will change the camera source, ideally cutting while the camera source is hidden behind the transition. It will then fade the audio back in after a second delay.
+>
+> ![Stinger Example](https://github.com/Jakobo/wirecast-utilities/blob/master/docs/images/stinger_example.gif)  
+> source: https://gfycat.com/gifs/detail/HealthyRelievedIndri
 
 parameter | type | description
 :--- | :--- | :---
