@@ -40,26 +40,29 @@ This is a small collection of effects in Wirecast to show off some of the script
 # source, ideally cutting while the camera source is hidden behind the
 # transition. It will then fade the audio back in after a second delay.
 #	transition_name<s>	- The name of the transition layer to use as a stinger
-# 	speed<s>			- The transition speed One of: {slowest, slow, normal, fast, fastest}
+# 	speed<s>			    - The transition speed One of: {slowest, slow, normal,
+#                       fast, fastest}
 # 	camera_delay<i>		- delay in seconds before changing the camera layer
-#	camera_name<s>		- camera layer to change to
+#	camera_name<s>		  - camera layer to change to
 #	audio_duration<i>		- delay in seconds before changing the audio layer
-#	audio_name<s>		- audio layer to change to (if not set, audio will not mute)
+#	audio_name<s>		    - audio layer to change to (if not set, audio will
+#                       not mute)
 #
 # upper
 # Used to trigger a shot on the "UPPER THIRDS" layer
-#	upper_name<s>		- name of the upper 3rd to play
+#	upper_name<s>		    - name of the upper 3rd to play
 #
 # lower
 # Used to trigger a shot on the "LOWER THIRDS" layer
-# 	lower_name<s>		- name of the lower 3rd to play
+# 	lower_name<s>		  - name of the lower 3rd to play
 #
 # camera
 # Used to change the shot on the CAMERAS layer at the specified speed
-#	camera_name<s>		- name of the camera shot to play
-#	speed<s>			- The transition speed One of: {slowest, slow, normal, fast, fastest}
+#	camera_name<s>		  - name of the camera shot to play
+#	speed<s>			      - The transition speed One of: {slowest, slow, normal,
+#                       fast, fastest}
 #
 # audio
 # Used to change the audio source on the AUDIO layer
-#	audio_name<s>		- The name of the audio track to switch to
+#	audio_name<s>		    - The name of the audio track to switch to
 ```
