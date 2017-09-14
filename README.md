@@ -34,6 +34,16 @@ camera_name | string | The shot on the CAMERA layer to change to
 audio_duration | float | _optional_ delay in seconds before changing the audio layer
 audio_name | string | _optional_ audio layer to change to (if not set, audio layer will not mute)
 
+## break
+`utilities.scpt break 'BRB' 'mute'`
+> Used to create BRB events or other transitional elements you do not plan to do a camera switch underneath. Can be used for automating replays, program-holding messages, etc. Will put up a system notification on OSX that lets you know it left your transition up (when using full screen transitions).
+
+parameter | type | description
+:--- | :--- | :---
+transition_name | string | The name of the shot on the TRANSITION layer to use
+mute_audio | enum string | Should the audio mute. One of {"", mute}
+
+
 ## upper
 `utilities.scpt upper 'My Upper Third Shot'`
 > Used to trigger a shot on the "UPPER THIRDS" layer
